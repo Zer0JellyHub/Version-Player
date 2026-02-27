@@ -149,10 +149,14 @@ For each version, the following information is shown (if provided by Jellyfin):
 
 ## ⚡ Version Switching
 
+
 - Click a version → instant switch  
 - **Playback position is preserved** — resumes at the same timestamp  
 - If only one version exists → toast message: `ℹ Only one version`  
 - While switching during playback → short message: `⏳ Switching...`
+
+- <img width="1438" height="759" alt="preview_button_injection" src="https://github.com/user-attachments/assets/96ca39ae-b6d2-4f5c-b708-7564139001f5" />![preview_movie_popup](https://github.com/user-attachments/assets/a8246473-4265-404e-8c36-04ac18aa2116)![preview_series_popup](https://github.com/user-attachments/assets/fbf87ae9-6039-42c7-a115-4ada81a0d7b9)
+
 
 ---
 
