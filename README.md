@@ -1,4 +1,4 @@
-# 🎬 Jellyfin Version Selector
+![preview_series_popup](https://github.com/user-attachments/assets/f2793726-0183-438d-b9bf-0fd6e540f196)![preview_movie_popup](https://github.com/user-attachments/assets/f386dd7c-f9a1-4f12-a202-1be68df0ffe9)# 🎬 Jellyfin Version Selector
 
 A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
 
@@ -155,8 +155,13 @@ For each version, the following information is shown (if provided by Jellyfin):
 - If only one version exists → toast message: `ℹ Only one version`  
 - While switching during playback → short message: `⏳ Switching...`
 
-- <img width="1438" height="759" alt="preview_button_injection" src="https://github.com/user-attachments/assets/96ca39ae-b6d2-4f5c-b708-7564139001f5" />![preview_movie_popup](https://github.com/user-attachments/assets/a8246473-4265-404e-8c36-04ac18aa2116)![preview_series_popup](https://github.com/user-attachments/assets/fbf87ae9-6039-42c7-a115-4ada81a0d7b9)
+How it looks in the player:
+<img width="1438" height="759" alt="preview_button_injection" src="https://github.com/user-attachments/assets/86e833fc-19b2-44d2-b8b1-1a5342399120" />
 
+How it could look like at movies and Series (depends on your naming)
+
+<img width="382" height="502" alt="Bildschirmfoto 2026-02-28 um 00 57 57" src="https://github.com/user-attachments/assets/ba892437-1383-40d7-9757-d7a08493604a" />
+<img width="397" height="509" alt="Bildschirmfoto 2026-02-28 um 00 57 17" src="https://github.com/user-attachments/assets/72fa67ac-1e4a-4f38-b3e7-74b19457d15e" />
 
 ---
 
