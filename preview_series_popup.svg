@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="520" viewBox="0 0 400 520">
+  <!-- Background -->
+  <rect width="400" height="520" fill="#101010"/>
+  
+  <!-- Simulated player bottom bar -->
+  <rect x="0" y="440" width="400" height="80" fill="#1a1a1a"/>
+  <text x="20" y="465" fill="#888" font-size="10" font-family="Arial">◀◀  ▶  ▶▶  🔊──────────────────  ⛶  📋  ♡  🎬</text>
+  <text x="20" y="485" fill="#666" font-size="9" font-family="Arial">Version wählen Button  ↗</text>
+  
+  <!-- Popup box -->
+  <rect x="60" y="30" width="280" height="390" rx="12" ry="12" fill="#1e1e1e" stroke="#444" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="60" y="30" width="280" height="44" rx="12" ry="12" fill="rgba(0,164,220,0.1)"/>
+  <rect x="60" y="54" width="280" height="20" fill="rgba(0,164,220,0.1)"/>
+  <rect x="60" y="73" width="280" height="1" fill="#444"/>
+  <text x="76" y="57" fill="#00a4dc" font-size="11" font-weight="800" font-family="Arial" letter-spacing="1.5">📺 VERSIONEN</text>
+  <text x="200" y="57" fill="rgba(0,164,220,0.5)" font-size="11" font-family="Arial">2 verfügbar</text>
+
+  <!-- Item 1 - Active -->
+  <rect x="66" y="82" width="268" height="62" rx="8" ry="8" fill="rgba(0,164,220,0.15)" stroke="rgba(0,164,220,0.4)" stroke-width="1"/>
+  <text x="80" y="102" fill="#00a4dc" font-size="13" font-weight="600" font-family="Arial">S01E05 - 1080p BluRay</text>
+  <text x="80" y="118" fill="#888" font-size="10" font-family="Arial">1080p · H265 · 4.8 GB</text>
+  <circle cx="310" cy="113" r="10" fill="#00dc7d"/>
+  <text x="306" y="117" fill="#fff" font-size="11" font-family="Arial">✓</text>
+
+  <!-- Item 2 -->
+  <rect x="66" y="152" width="268" height="62" rx="8" ry="8" fill="rgba(255,255,255,0.05)" stroke="transparent"/>
+  <text x="80" y="172" fill="#fff" font-size="13" font-weight="600" font-family="Arial">S01E05 - WEB-DL 720p</text>
+  <text x="80" y="188" fill="#888" font-size="10" font-family="Arial">720p · H264 · 1.2 GB</text>
+  <circle cx="310" cy="183" r="9" fill="transparent" stroke="#555" stroke-width="1.5"/>
+
+  <!-- Divider -->
+  <rect x="60" y="350" width="280" height="1" fill="#444"/>
+  <!-- Footer -->
+  <text x="200" y="368" fill="#666" font-size="10" font-family="Arial" text-anchor="middle">▶ Startet an gleicher Position</text>
+
+  <text x="200" y="490" fill="#555" font-size="10" font-family="Arial" text-anchor="middle">Version Selector – Serien/Episoden Popup</text>
+</svg>
