@@ -26,7 +26,7 @@ Jellyfin automatically detects multiple files in the same folder as different ve
 
 ### 🎬 Movies
 
-All versions of a movie must be placed in **the same folder** and must share the **exact same movie title** in the filename.
+All versions of a movie must be placed in **the same folder** and must share the **exact same movie title** in the filename. Or younamed it like u want it works fine too.
 
 The part after the last ` - ` (space-dash-space) will be displayed as the version name in the selector.
 
@@ -49,7 +49,7 @@ Displayed version names:
 
 ### 📺 Series / Episodes
 
-Same logic as movies — episode versions must be in **the same season folder**.
+Same logic as movies — episode versions must be in **the same season folder**. Or younamed it like u want it works fine too.
 
 Important: The episode number (e.g., `S01E05`) and title must match exactly.
 
