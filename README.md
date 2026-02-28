@@ -217,3 +217,4 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 
 Free for private use.  
 Commercial use requires prior permission.
+Please help me to fix the bugs
