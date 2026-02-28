@@ -210,6 +210,7 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 | Only one version shown | Verify file naming and rescan library |
 | Version does not switch | Check `select.selectSource` in DOM |
 | Popup does not open | Check browser console (F12) |
+| Does not show Switch but it switches | Not discoverd yet|
 
 ---
 
