@@ -156,7 +156,7 @@ How it could look like at movies and Series (depends on your naming)
 
 ## 🚀 Installation (Step-by-Step)
 
-### 1️ Install a JavaScript Injector
+### 1 Install a JavaScript Injector
 
 ---
 
@@ -166,6 +166,7 @@ Below the header, paste the full content of:
 
 - `Version Selector Movie.js`
 - `Version Selector Series.js`
+- Or the 'Both Fix.js'
 
 ---
 
