@@ -101,11 +101,9 @@ If Jellyfin does not automatically merge the files:
 │    WEB-DL 1080p                 │
 │    1080p · H265 · 8.2 GB        │
 ├─────────────────────────────────┤
-│   ▶ Starts at same position     │
+│   ▶ Starts at same position(not yet)│
 └─────────────────────────────────┘
 ```
-
----
 
 ### Version Popup (Series / Episodes)
 
@@ -119,7 +117,7 @@ If Jellyfin does not automatically merge the files:
 │    WEB-DL 720p                  │
 │    720p · H264 · 1.2 GB         │
 ├─────────────────────────────────┤
-│   ▶ Starts at same position     │
+│   ▶ Starts at same position(not yet)│
 └─────────────────────────────────┘
 ```
 
