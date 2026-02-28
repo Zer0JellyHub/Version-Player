@@ -12,18 +12,8 @@ With a single click, you can switch between multiple stored versions of the same
 
 ### JavaScript Injector Required
 
-These scripts do **not** run on their own. You need a browser extension that automatically executes custom JavaScript on a specific website.
+These scripts do **not** run on their own. You need a browser extension that automatically executes custom JavaScript.
 
-Recommended extensions:
-
-| Add-on | Browser | Link |
-|---|---|---|
-| **Violentmonkey** *(recommended)* | Chrome, Firefox, Edge | https://violentmonkey.github.io |
-| **Tampermonkey** | Chrome, Firefox, Edge, Safari | https://www.tampermonkey.net |
-| **Greasemonkey** | Firefox | https://addons.mozilla.org |
-
-> ⚠️ **Important:** The script must be allowed to access your Jellyfin URL.  
-> When creating the userscript, adjust the `@match` line accordingly (e.g. `// @match http://192.168.1.100:8096/*`).
 
 ---
 
