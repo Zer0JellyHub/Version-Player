@@ -211,6 +211,8 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 | Version does not switch | Check `select.selectSource` in DOM |
 | Popup does not open | Check browser console (F12) |
 | Does not show that it has switch the version but it switched | Not discoverd yet|
+| Doesnt work on the web app| Not discoverd yet|
+
 
 ---
 
