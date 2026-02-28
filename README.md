@@ -1,3 +1,5 @@
+It still has some bugs!!!!!!!!
+
 🎬 Jellyfin Version Selector !! Only works on Web version Laptop and Pc!!
 
 A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
