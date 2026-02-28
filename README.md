@@ -166,46 +166,10 @@ How it could look like at movies and Series (depends on your naming)
 
 ## 🚀 Installation (Step-by-Step)
 
-### 1️⃣ Install a JavaScript Injector
+### 1️ Install a JavaScript Injector
 
-Install **Violentmonkey** or **Tampermonkey** as a browser extension.
 
----
-
-### 2️⃣ Create a New Userscript
-
-Open Violentmonkey/Tampermonkey → **Create New Script** and insert:
-
-#### For Movies:
-```javascript
-// ==UserScript==
-// @name         Jellyfin Version Selector - Movies
-// @namespace    jellyfin-vsf-movie
-// @version      1.0
-// @match        http://YOUR-JELLYFIN-IP:PORT/*
-// @grant        none
-// @run-at       document-idle
-// ==/UserScript==
-```
-
-#### For Series:
-```javascript
-// ==UserScript==
-// @name         Jellyfin Version Selector - Series
-// @namespace    jellyfin-vsf-series
-// @version      1.0
-// @match        http://YOUR-JELLYFIN-IP:PORT/*
-// @grant        none
-// @run-at       document-idle
-// ==/UserScript==
-```
-
-> Replace `http://YOUR-JELLYFIN-IP:PORT/*` with your actual Jellyfin URL  
-> e.g. `http://192.168.1.50:8096/*` or `https://jellyfin.yourdomain.com/*`
-
----
-
-### 3️⃣ Insert Script Content
+### 2 Insert Script Content
 
 Below the header, paste the full content of:
 
@@ -214,14 +178,14 @@ Below the header, paste the full content of:
 
 ---
 
-### 4️⃣ Activate Both Scripts
+### 3 Activate Both Scripts
 
 Repeat for the second script.  
 Both can run simultaneously — they use different element IDs.
 
 ---
 
-### 5️⃣ Reload Jellyfin
+### 4 Reload Jellyfin
 
 Refresh the page → open a movie or episode with multiple versions → the button appears automatically.
 
