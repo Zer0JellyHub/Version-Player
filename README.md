@@ -1,4 +1,4 @@
-![preview_series_popup](https://github.com/user-attachments/assets/f2793726-0183-438d-b9bf-0fd6e540f196)![preview_movie_popup](https://github.com/user-attachments/assets/f386dd7c-f9a1-4f12-a202-1be68df0ffe9)# 🎬 Jellyfin Version Selector
+🎬 Jellyfin Version Selector
 
 A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
 
