@@ -158,6 +158,7 @@ How it could look like at movies and Series (depends on your naming)
 
 ### 1️ Install a JavaScript Injector
 
+---
 
 ### 2 Insert Script Content
 
