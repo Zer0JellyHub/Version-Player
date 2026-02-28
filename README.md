@@ -83,20 +83,6 @@ If Jellyfin does not automatically merge the files:
 1. Open Jellyfin Web UI → Admin Dashboard → **Scan Library**
 2. Or open the movie/series → `···` menu → **Merge Versions**
 
----
-
-## 🖥️ How It Looks in the Player
-
-### Detail Page Button
-
-The button `▤` (video library icon) is automatically inserted **next to the favorite heart button** in the detail page action bar:
-
-```
-[ ▶ Play ]  [ ⇄ ]  [ ♡ ]  [ ▤ ]
-```
-
-The button appears **only** if more than one version exists.  
-For single-version titles, the interface remains unchanged.
 
 ---
 
@@ -157,7 +143,20 @@ For each version, the following information is shown (if provided by Jellyfin):
 - If only one version exists → toast message: `ℹ Only one version`  
 - While switching during playback → short message: `⏳ Switching...`
 
-How it looks in the player:
+---
+## 🖥️ How It Looks in the Player
+
+### Detail Page Button
+
+The button `▤` (video library icon) is automatically inserted **next to the favorite heart button** in the detail page action bar:
+
+```
+[ ▶ Play ]  [ ⇄ ]  [ ♡ ]  [ ▤ ]
+```
+
+The button appears **only** if more than one version exists.  
+For single-version titles, the interface remains unchanged.
+
 <img width="1438" height="759" alt="preview_button_injection" src="https://github.com/user-attachments/assets/86e833fc-19b2-44d2-b8b1-1a5342399120" />
 
 How it could look like at movies and Series (depends on your naming)
