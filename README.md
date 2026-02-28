@@ -2,7 +2,7 @@ It still has some bugs!!!!!!!!
 
 🎬 Jellyfin Version Selector !! Only works on Web version Laptop and Pc!!
 
-A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
+A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.And a bug fixed Version for both.
 
 With a single click, you can switch between multiple stored versions of the same file (e.g., 4K Remux, 1080p BluRay, WEB-DL) without navigating through menus.
 
