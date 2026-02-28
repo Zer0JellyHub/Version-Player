@@ -166,7 +166,7 @@ Below the header, paste the full content of:
 
 - `Version Selector Movie.js`
 - `Version Selector Series.js`
-- Or the 'Both Fix.js'
+- Or the https://github.com/Zer0JellyHub/Version-Player/blob/main/Both%20fix
 
 ---
 
