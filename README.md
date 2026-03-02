@@ -172,7 +172,7 @@ Below the header, paste the full content of 1 and 2 or 3 alone.
 
 ---
 
-### 3 Activate Both Scripts
+### 3 Activate Both Scripts or the third
 
 Repeat for the second script.  
 Both can run simultaneously — they use different element IDs.
