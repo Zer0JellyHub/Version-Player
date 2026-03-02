@@ -166,9 +166,9 @@ How it could look like at movies and Series (depends on your naming)
 
 Below the header, paste the full content of 1 and 2 or 3 alone.
 
-- 1. `Version Selector Movie.js`
-- 2. `Version Selector Series.js`
-- 3. `Both better Fixed.js`
+- 1 `Version Selector Movie.js`
+- 2 `Version Selector Series.js`
+- 3 `Both better Fixed.js`
 
 ---
 
