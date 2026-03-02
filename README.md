@@ -146,6 +146,8 @@ The button appears **only** if more than one version exists.
 For single-version titles, the interface remains unchanged.
 
 <img width="1438" height="759" alt="preview_button_injection" src="https://github.com/user-attachments/assets/86e833fc-19b2-44d2-b8b1-1a5342399120" />
+<img width="2796" height="1290" alt="IMG_4963" src="https://github.com/user-attachments/assets/89027256-8e20-4838-bf97-a87a96610187" />
+
 
 How it could look like at movies and Series (depends on your naming)
 
@@ -208,8 +210,8 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 | Problem | Solution |
 |---|---|
 | Button does not appear | Check `@match` URL and reload |
-| Only one version shown | Verify file naming and rescan library |
-| Version does not switch | Check `select.selectSource` in DOM |
+| Only one version shown | Verify file naming and rescan library or URL reload |
+| Version does not switch | Check `select.selectSource` in DOM or URL reload |
 | Popup does not open | Check browser console (F12) |
 | Does not show that it has switch the version but it switched | Not discoverd yet|
 | Doesnt work on the web app| Not discoverd yet|
