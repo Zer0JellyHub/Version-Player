@@ -214,7 +214,8 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 | Version does not switch | Check `select.selectSource` in DOM or URL reload |
 | Popup does not open | Check browser console (F12) |
 | Does not show that it has switch the version but it switched | Not discoverd yet|
-| Doesnt work on the web app| Not discoverd yet|
+| Doesnt work on the web app| Select Cache size tiny|
+<img width="1440" height="900" alt="Bildschirmfoto 2026-03-02 um 05 00 01" src="https://github.com/user-attachments/assets/2196a529-1cc7-4bdd-82cf-348e5c132fbe" />
 
 
 ---
