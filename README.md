@@ -163,11 +163,10 @@ How it could look like at movies and Series (depends on your naming)
 
 ### 2 Insert Script Content
 
-Below the header, paste the full content of 1 and 2 or 3 alone.
+Below the header, paste the full content of 1 and 2.
 
-- 1 `Version Selector Movie.js`
-- 2 `Version Selector Series.js`
-- 3 `Both better Fixed.js`
+- 1 `Final Fix Movie.js`
+- 2 `Final Fix Serie.js`
 
 ---
 
@@ -188,8 +187,8 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 
 | File | Description |
 |---|---|
-| `Version Selector Movie.js` | Script for Movies (`Type: Movie`) | Use final fixed
-| `Version Selector Series.js` | Script for Series/Episodes (`Type: Episode`) | Use final fixed
+| `Final Fix Movie.js` | Script for Movies (`Type: Movie`) | Use final fixed
+| `Final Fix Serie.js` | Script for Series/Episodes (`Type: Episode`) | Use final fixed
 
 ---
 
