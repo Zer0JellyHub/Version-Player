@@ -188,8 +188,8 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 
 | File | Description |
 |---|---|
-| `Version Selector Movie.js` | Script for Movies (`Type: Movie`) |
-| `Version Selector Series.js` | Script for Series/Episodes (`Type: Episode`) |
+| `Version Selector Movie.js` | Script for Movies (`Type: Movie`) | Use final fixed
+| `Version Selector Series.js` | Script for Series/Episodes (`Type: Episode`) | Use final fixed
 
 ---
 
