@@ -31,13 +31,13 @@ if(!p){p=document.createElement('div');p.id='vsf-popup';document.body.appendChil
 p.innerHTML=`<div class="hdr">📺 Versionen <span style="opacity:.5;font-weight:400;letter-spacing:0;margin-left:6px">${src.length} verfügbar</span></div><div class="list">${src.map((s,i)=>{const a=s.Id===activeId,vs=(s.MediaStreams||[]).find(x=>x.Type==='Video'),meta=[vs?.Height?vs.Height+'p':'',s.Size?(s.Size/1073741824).toFixed(1)+' GB':''].filter(Boolean).join(' · ');return`<div class="item${a?' active':''}" data-ms="${s.Id}"><div style="min-width:0"><div class="iname">${verName(s,i)}</div>${meta?`<div class="imeta">${meta}</div>`:''}</div>${a?'<div class="chk">✓</div>':'<div class="unchk"></div>'}</div>`}).join('')}</div>`;
 p.querySelectorAll('.item').forEach(el=>el.addEventListener('click',()=>switchVersion(el.dataset.ms)));
 p.classList.add('open')}
-let _btn=null,_busy=false,_lastId='';
+let _btn=null,_busy=false,_lastId='',_valid=false;
 function getOrCreateBtn(){if(!_btn){_btn=document.createElement('button');_btn.id='vsf-btn';_btn.setAttribute('is','paper-icon-button-light');_btn.className='autoSize paper-icon-button-light';_btn.title='Version wählen';_btn.innerHTML=`<span class="material-icons" style="font-size:1.4em;vertical-align:middle">video_library</span>`;_btn.addEventListener('click',e=>{e.stopPropagation();openPopup()})}return _btn}
 function tryInject(){
 const id=getItemId(),c=document.querySelector('.buttons.focuscontainer-x');
 if(!c||!id){if(_btn?.parentNode)_btn.parentNode.removeChild(_btn);return}
-if(id!==_lastId&&!_busy){_lastId=id;if(_btn?.parentNode)_btn.parentNode.removeChild(_btn);_busy=true;ApiClient.getItem(ApiClient.getCurrentUserId(),id).then(item=>{_busy=false;if(item.Type!=='Episode'||!item.MediaSources||item.MediaSources.length<=1)return;const c2=document.querySelector('.buttons.focuscontainer-x');if(!c2)return;const btn=getOrCreateBtn();const cc=c2.querySelector('.btnSubtitles');if(cc)cc.before(btn);else c2.appendChild(btn)}).catch(()=>{_busy=false});return}
-if(!_btn?.parentNode&&id===_lastId&&!_busy){const btn=getOrCreateBtn();const cc=c.querySelector('.btnSubtitles');if(cc)cc.before(btn);else c.appendChild(btn)}}
+if(id!==_lastId&&!_busy){_lastId=id;_valid=false;if(_btn?.parentNode)_btn.parentNode.removeChild(_btn);_busy=true;ApiClient.getItem(ApiClient.getCurrentUserId(),id).then(item=>{_busy=false;if(item.Type!=='Episode'||!item.MediaSources||item.MediaSources.length<=1){_valid=false;return}_valid=true;const c2=document.querySelector('.buttons.focuscontainer-x');if(!c2)return;const btn=getOrCreateBtn();const cc=c2.querySelector('.btnSubtitles');if(cc)cc.before(btn);else c2.appendChild(btn)}).catch(()=>{_busy=false});return}
+if(!_btn?.parentNode&&id===_lastId&&!_busy&&_valid){const btn=getOrCreateBtn();const cc=c.querySelector('.btnSubtitles');if(cc)cc.before(btn);else c.appendChild(btn)}}
 setInterval(tryInject,500);
 document.addEventListener('mousemove',()=>tryInject(),{passive:true});
 new MutationObserver(()=>tryInject()).observe(document.body,{childList:true,subtree:true});
