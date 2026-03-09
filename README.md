@@ -207,11 +207,9 @@ Refresh the page → open a movie or episode with multiple versions → the butt
 
 | Problem | Solution |
 |---|---|
-| Button does not appear | Check `@match` URL and reload | Fixed
-| Only one version shown | Verify file naming and rescan library or URL reload |
-| Version does not switch | Check `select.selectSource` in DOM or URL reload | Fixed
-| Popup does not open | Check browser console (F12) | Fixed
-| Does not show that it has switch the version but it switched | Fixed
+| Button does not appear | Go to the detail side and reload | 
+| Only one version shown | Verify if mutiple Version are avaivable and reload |
+| Version does not switch | Go to the detail side and reload |
 | Doesnt work on the web app| Select (in Settings) Cache size tiny|
 <img width="1440" height="900" alt="Bildschirmfoto 2026-03-02 um 05 00 01" src="https://github.com/user-attachments/assets/2196a529-1cc7-4bdd-82cf-348e5c132fbe" />
 
