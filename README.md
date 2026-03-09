@@ -69,8 +69,8 @@ Displayed version names:
 
 If Jellyfin does not automatically merge the files:
 
-1. Open Jellyfin Web UI → Admin Dashboard → **Scan Library**
-2. Or open the movie/series → `···` menu → **Merge Versions**
+1. Open Jellyfin Admin Dashboard → **Scan Library**
+2. Or open the movie/series → Select the Item with long left click and merge them over the right top menu → **Merge Versions**
 
 
 ---
