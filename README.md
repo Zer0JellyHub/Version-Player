@@ -1,4 +1,4 @@
-99% Bug Free
+
 🎬 Jellyfin Version Selector
 
 A browser script duo that injects a **“Select Version”** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.And a bug fixed Version for both.
