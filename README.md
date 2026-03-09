@@ -126,7 +126,7 @@ For each version, the following information is shown (if provided by Jellyfin):
 
 
 - Click a version → instant switch  
-- **Playback position is preserved** — resumes at the same timestamp (not yet) 
+- **Playback position is preserved** — resumes at the same timestamp 
 - If only one version exists → toast message: `ℹ Only one version`  
 - While switching during playback → short message: `⏳ Switching...`
 
