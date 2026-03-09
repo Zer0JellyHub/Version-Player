@@ -163,7 +163,7 @@ How it could look like at movies and Series (depends on your naming)
 
 ### 2 Insert Script Content
 
-Below the header, paste the full content of 1 and 2.
+Below the header, paste the full content of 1 and 2 !! Seperate!!
 
 - 1 `Final Fix Movie.js`
 - 2 `Final Fix Serie.js`
