@@ -100,7 +100,7 @@ function verName(s, i) {
 
 The label is always the exact folder name — no configuration needed.
 
-![Auto Label Before and After]<img width="720" height="410" alt="auto_label_preview" src="https://github.com/user-attachments/assets/b85c72da-9619-4207-858e-df75eb22ff85" />
+<img width="720" height="410" alt="auto_label_preview" src="https://github.com/user-attachments/assets/b85c72da-9619-4207-858e-df75eb22ff85" />
 
 
 ---
