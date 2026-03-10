@@ -1,4 +1,4 @@
-New Fixed and upgraded Version
+New better Fixed and upgraded Version
 # 🎬 Jellyfin Version Selector
 
 A browser script duo that injects a **"Select Version"** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
