@@ -400,7 +400,8 @@ Install the **JS Injector** plugin in your Jellyfin dashboard.
 Click **Add Script** and add the scripts **separately**:
 
 - `Final Fix Movie.js` → for movies
-- `Final Fix Serie.js` **or** `Final Fix Series with auto label` → for series (pick one)
+- `Final Fix Serie.js` **or** `Final Fix Series with auto label` **or** `Final Fix Series Manuell label
+ → for series (pick one)
 
 ### 3. Reload Jellyfin
 
