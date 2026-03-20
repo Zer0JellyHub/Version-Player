@@ -19,9 +19,9 @@ These scripts do **not** run on their own. You need a browser extension or plugi
 
 | File | Description |
 | --- | --- |
-| `Final Fix Movie Auto.js` | Script for Movies (`Type: Movie`) |Popup disappear after 5 sec no activity|
+| `Final Fix Movie Auto.js` | Script for Movies (`Type: Movie`)Popup disappear after 5 sec no activity|
 | `Final Fix Serie.js` | Script for Series/Episodes — **Manual Label** version |
-| `Final Fix Series with auto label` | Script for Series/Episodes — **Auto Label** version (recommended) | Popup disappear after 5 sec no activity|
+| `Final Fix Series with auto label` | Script for Series/Episodes — **Auto Label** version (recommended) Popup disappear after 5 sec no activity|
 
 ---
 
