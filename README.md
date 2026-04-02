@@ -3,7 +3,7 @@ New better Fixed and upgraded Version
 
 A browser script duo that injects a **"Select Version"** button directly into the detail page in [Jellyfin](https://jellyfin.org) — separately for movies and series/episodes.
 
-With a single click, you can switch between multiple stored versions of the same file (e.g., 4K Remux, 1080p BluRay, WEB-DL, Ger Dub, Eng Sub) without navigating through menus.
+With a single click, you can switch between multiple stored versions of the same file (e.g., 4K Remux, 1080p BluRay, WEB-DL, Ger Dub, Eng Sub) without navigating through menus. Make shure to merge Movies and Episodes.
 
 ---
 
