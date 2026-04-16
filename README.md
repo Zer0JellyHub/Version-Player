@@ -111,7 +111,7 @@ For the Version Selector to work, Jellyfin must recognize the files as different
 
 ### 📺 Series / Episodes
 
-Episode versions must be in **separate language folders**, each inside matching season folders.
+Episode versions must be in **separate language folders**, inside matching season folder.
 
 ```
 /Anime/Serienname/
