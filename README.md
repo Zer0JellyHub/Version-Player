@@ -62,10 +62,10 @@ function verName(s, i) {
 
 **Example folder structure:**
 ```
-/Anime/Serienname/Ger Dub/Staffel 1/Episode.mkv   → shows "Ger Dub"
-/Anime/Serienname/Eng Dub/Staffel 1/Episode.mkv   → shows "Eng Dub"
-/Anime/Serienname/Ger Sub/Staffel 1/Episode.mkv   → shows "Ger Sub (Hard)"
-/Anime/Serienname/Eng Sub/Staffel 1/Episode.mkv   → shows "Eng Sub (Hard)"
+/Anime/Serienname/Staffel 1/Ger Dub/Episode.mkv   → shows "Ger Dub"
+/Anime/Serienname/Staffel 1/Eng Dub/Episode.mkv   → shows "Eng Dub"
+/Anime/Serienname/Staffel 1/Ger Sub/Episode.mkv   → shows "Ger Sub (Hard)"
+/Anime/Serienname/Staffel 1/Eng Sub//Episode.mkv   → shows "Eng Sub (Hard)"
 ```
 
 ---
@@ -92,10 +92,10 @@ function verName(s, i) {
 
 **Example folder structure:**
 ```
-/Anime/Serienname/Ger Dub/Staffel 1/Episode.mkv   → shows "Ger Dub"
-/Anime/Serienname/Ko Dub/Staffel 1/Episode.mkv    → shows "Ko Dub"
-/Anime/Serienname/Ita Sub/Staffel 1/Episode.mkv   → shows "Ita Sub"
-/Anime/Serienname/8K/Staffel 1/Episode.mkv        → shows "8K"
+/Anime/Serienname/Staffel 1/Ger Dub/Episode.mkv   → shows "Ger Dub"
+/Anime/Serienname/Staffel 1/Ko Dub/Episode.mkv    → shows "Ko Dub"
+/Anime/Serienname/Staffel 1/Ita Sub/Episode.mkv   → shows "Ita Sub"
+/Anime/Serienname/Staffel 1/8K/Episode.mkv        → shows "8K"
 ```
 
 The label is always the exact folder name — no configuration needed.
@@ -115,15 +115,13 @@ Episode versions must be in **separate language folders**, each inside matching 
 
 ```
 /Anime/Serienname/
-    ├── Ger Dub/
-    │   └── Staffel 1/
-    │       └── Serienname S01E01.mkv
-    ├── Eng Dub/
-    │   └── Staffel 1/
-    │       └── Serienname S01E01.mkv
-    └── Ger Sub/
-        └── Staffel 1/
-            └── Serienname S01E01.mkv
+    ├── Staffel 1/
+        └── Ger Dub/
+            └── S01E01.mkv
+        └── Eng Dub/
+            └── S01E01.mkv
+        └── Ger Sub/
+            └── S01E01.mkv
 ```
 
 ### 🎬 Movies
