@@ -219,5 +219,4 @@ Free for private use.
 Commercial use requires prior permission.
 
 Please help improve the scripts by reporting bugs!New Fix Version
-# 🎬 Jellyfin Version Selector
 
